@@ -12,6 +12,7 @@ def join_ingredients(src)
     newArray[i] = 'I love ${src[i][0]} and ${src[i][1]} on my pizza'
     i=i+1
 end
+end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
